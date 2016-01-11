@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>3P Denver Tweet Feed</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
 
@@ -27,7 +28,7 @@
         .container {
           margin: 0 auto;
           max-width: 400px;
-          font-family: Helvetica, arial, sans-serif;
+          font-family:  "proxima-nova-soft";
         }
 
         body {
@@ -37,6 +38,7 @@
         h1 {
           padding-top: 3vh;
           text-align: center;
+          font-family: "alternate-gothic-no-3-d";
         }
 
   </style>
@@ -51,11 +53,11 @@
 
 	<div class="container">
 
-      <h1>Denver in Real Time</h1>
-			<div class="twit-box">
+      <h1>DENVER. REAL TIME.</h1>
+			<div class"twit-box">
 
 <!-- Some selector goes here -->
-<select data-placeholder="Watch Denver music, news, sports and more... " class="chzn-select" style="width:350px;" tabindex="1" id="twitter-selector">
+<select data-placeholder="Watch Denver music, news, sports and more... " class="chzn-select" tabindex="1" id="twitter-selector">
 
 <option value="Twitter-CatchAll"></option>
 <option value="Twitter-CatchAll">All of Denver</option>
@@ -128,9 +130,13 @@
     <!-- borrow chosen from PREM -->
     <script type='text/javascript' src='http://pinnaclerem.com/wp-content/themes/ronneby_child/chosen.jquery.js'></script>
 
+    <!-- TypeKit fonts -->
+    <script src="https://use.typekit.net/cxb7efi.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <script>
 
+          // Make chosen work on selector
             $(function(){
                 jQuery("#twitter-selector").chosen();
                 jQuery("#twitter-selector").chosen({disable_search_threshold: 999});
