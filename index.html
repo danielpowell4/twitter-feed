@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>3P Denver Tweet Feed</title>
+
+  <style>
+
+        .hidden {
+          display: none;
+        }
+
+        .chosen-single {
+          margin-top: 28px;
+          width: 400px;
+          color: #333334!important;
+        }
+
+        .chosen-container .chosen-drop  {
+          width: 400px!important;
+          margin: 0 auto;
+        }
+
+        .tweet-list {
+          padding-top: 28px;
+        }
+
+        .container {
+          margin: 0 auto;
+        }
+        
+  </style>
+
+  <!-- borrow chosen from PREM -->
+  <link rel="stylesheet" href="http://pinnaclerem.com/wp-content/themes/ronneby_child/chosen.css">
+
+
+</head>
+
+<body>
+
+	<div class="container">
+			<div class="twit-box">
+
+<!-- Some selector goes here -->
+<select data-placeholder="Watch Denver music, news, sports and more... " class="chzn-select" style="width:350px;" tabindex="1" id="twitter-selector">
+
+<option value="Twitter-CatchAll"></option>
+<option value="Twitter-CatchAll">All of Denver</option>
+					<option value="Twitter-Attractions">Denver Attractions</option>
+					<option value="Twitter-Music">Denver Music</option>
+          <option value="Twitter-Sports">Denver Sports</option>
+          <option value="Twitter-Ski">Colorado's Slopes</option>
+					<option value="Twitter-Brew">Denver Breweries</option>
+          <option value="Twitter-News">Denver News</option>
+					<option value="Twitter-Govt">Local Government</option>
+</select>
+
+<!--Begin Twitter Lists-->
+
+<!--Pinnacle CatchAll-->
+<div id="Twitter-CatchAll" class="tweet-list">
+  <a class="twitter-timeline" data-chrome="noheader" href="https://twitter.com/dangerdan131/lists/prem-denver1" data-widget-id="657323967317807104">Tweets from https://twitter.com/dangerdan131/lists/prem-denver1</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+
+<!-- Attractions -->
+<div id="Twitter-Attractions" class="hidden tweet-list">
+  <a class="twitter-timeline" data-chrome="noheader" href="https://twitter.com/dangerdan131/lists/denver-attractions1" data-widget-id="657684992877658112">Tweets from https://twitter.com/dangerdan131/lists/denver-attractions1</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+
+<!-- Music Venues -->
+<div id="Twitter-Music" class="hidden tweet-list">
+  <a class="twitter-timeline" data-chrome="noheader" href="https://twitter.com/dangerdan131/lists/denver-music" data-widget-id="657679356446162944">Tweets from https://twitter.com/dangerdan131/lists/denver-music</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+
+<!--Ski -->
+<div id="Twitter-Ski" class="hidden tweet-list">
+  <a class="twitter-timeline" data-chrome="noheader" href="https://twitter.com/dangerdan131/lists/ski" data-widget-id="657678735387201536">Tweets from https://twitter.com/dangerdan131/lists/ski</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+
+<!-- Sports-->
+<div id="Twitter-Sports" class="hidden tweet-list">
+  <a class="twitter-timeline" data-chrome="noheader" href="https://twitter.com/dangerdan131/lists/denver-sports" data-widget-id="657678585675714560">Tweets from https://twitter.com/dangerdan131/lists/denver-sports</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+
+<!-- Breweries -->
+<div id="Twitter-Brew" class="hidden tweet-list">
+  <a class="twitter-timeline" data-chrome="noheader" href="https://twitter.com/dangerdan131/lists/denver-beer" data-widget-id="660144057348263936">Tweets from https://twitter.com/dangerdan131/lists/denver-beer</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+
+<!-- Denver News -->
+<div id="Twitter-News" class="hidden tweet-list">
+  <a class="twitter-timeline" data-chrome="noheader" href="https://twitter.com/dangerdan131/lists/denver-news" data-widget-id="657678399989678080">Tweets from https://twitter.com/dangerdan131/lists/denver-news</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+
+<!-- Local Government -->
+<div id="Twitter-Govt" class="hidden tweet-list">
+  <a class="twitter-timeline" data-chrome="noheader" href="https://twitter.com/dangerdan131/lists/denver-govt" data-widget-id="657677947063525376">Tweets from https://twitter.com/dangerdan131/lists/denver-govt</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+
+		</div>
+		</div>
+
+<!-- Scripts go here for now -->
+
+    <!-- jQuery straight from Google -->
+    <script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- borrow chosen from PREM -->
+    <script type='text/javascript' src='http://pinnaclerem.com/wp-content/themes/ronneby_child/chosen.jquery.js'></script>
+
+
+    <script>
+
+            $(function(){
+                jQuery("#twitter-selector").chosen();
+                jQuery("#twitter-selector").chosen({disable_search_threshold: 999});
+            });
+
+
+          // Script to change out the Twitter Feed as the dropdown changes-->
+
+            jQuery("#twitter-selector").change(function(){
+                //console.log("The selector has changed");
+                var value = jQuery("#twitter-selector option:selected").val();
+                var SelectedID = "#" + value;
+
+                jQuery(SelectedID).removeClass("hidden");
+                jQuery(".tweet-list:not("+SelectedID+")").addClass("hidden");
+            });
+
+    </script>
+
+
+<body></html>
